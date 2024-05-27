@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "name": "Passadeira Black and White",
+      "description": "Passadeira de 2,20M , cliente pode escolher cor e outros modelos referentes, valor varia conforme o tamanho",
+      "price": "R$ 200,00",
+      "image": "/tapetes-img/passadeira-black-and-white.jpg",
+      "category": "Passadeira"
+    },
+    {
+      "id": 2,
+      "name": "Jogo de Banheiro Minnie Vermelho",
+      "description": "KIT BANHEIRO - Tampa de vaso, tapete redondo e tapete para vaso",
+      "price": "R$ 170,00",
+      "image": "/tapetes-img/minnie-vermelho.jpg",
+      "category": "Kit de Banheiro"
+
+    },
+    {
+      "id": 3,
+      "name": "Jogo de Banheiro Minnie Rosa",
+      "description": "KIT BANHEIRO - Tampa de vaso, tapete redondo e tapete para vaso",
+      "price": "R$ 170,00",
+      "image": "/tapetes-img/minnie-rosa.jpg",
+      "category": "Kit de Banheiro"
+
+    },
+    {
+      "id": 4,
+      "name": "KIT - Souplaste Laranja",
+      "description": "Valor referente á: 1 Souplast",
+      "price": "R$ 16,00",
+      "image": "/tapetes-img/souplate-laranja.jpg",
+      "category": "Souplast"
+
+    },
+    {
+      "id": 5,
+      "name": "KIT - Souplaste Flor",
+      "description": "Valor referente á: 1 Souplast",
+      "price": "R$ 20,00",
+      "image": "/tapetes-img/souplate-flor.jpg",
+      "category": "Souplast"
+
+    },
+    {
+      "id": 6,
+      "name": "KIT - Souplaste Azul com Porta Copos",
+      "description": "Valor referente á: 1 Souplast + 1 porta copo. Cores podem ser escolhidas pelo cliente",
+      "price": "R$ 18,00",
+      "image": "/tapetes-img/souplate-azul-claro-copo.jpg",
+      "category": "Souplast"
+
+    },
+    {
+      "id": 7,
+      "name": "Tapete Azul com Coração em Auto Relevo",
+      "description": "Tapete Azul em Auto Relevo, feito utilizando barbante azul royal e branco. Valor pdoe variar a partir do tamanho ",
+      "price": "R$ 70,00",
+      "image": "/tapetes-img/tapete-azul-coracao.png",
+      "category": "Tapete Pequeno"
+
+    }
+  ]
+  
