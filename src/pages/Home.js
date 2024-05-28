@@ -1,29 +1,36 @@
-import React, { useContext } from 'react';
-import { ProductContext } from '../contexts/ProductContext'
-import Product from '../components/Product'
+import React, { useContext, useState, useEffect } from 'react';
+import { ProductContext } from '../contexts/ProductContext';
+import Product from '../components/Product';
+import Header from '../components/Header'; 
+
 const Home = () => {
-  //all products
   const { products } = useContext(ProductContext);
+  const [filteredProducts, setFilteredProducts] = useState(products);
 
-  //some products
-  const filteredProducts = products.filter(item => {
-    return (item.category === "souplat" ||
-      item.category === "tapetesComuns"
-    );
-  });
-  console.log(filteredProducts);
+  const updateFilteredProducts = (category) => {
+    if (category === '') {
+      setFilteredProducts(products); 
+    } else {
+      const filtered = products.filter(item => item.category === category);
+      setFilteredProducts(filtered);
+    }
+  };
+  
 
-  return <div>
-    <section className='py-16'>
-      <div className='container mx-auto'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0'>
-          {products.map(product => {
-            return <Product product={product} key={product.id} />
-          })}
+  return (
+    <div>
+      <Header onCategoryChange={updateFilteredProducts} /> 
+      <section className='py-16'>
+        <div className='container mx-auto'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0'>
+            {filteredProducts.map(product => (
+              <Product product={product} key={product.id} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
-  </div>;
+      </section>
+    </div>
+  );
 };
 
 export default Home;
