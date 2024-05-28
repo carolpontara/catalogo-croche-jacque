@@ -1,65 +1,58 @@
 [
-    {
-      "id": 1,
-      "name": "Passadeira Black and White",
-      "description": "Passadeira de 2,20M , cliente pode escolher cor e outros modelos referentes, valor varia conforme o tamanho",
-      "price": "R$ 200,00",
-      "image": "/tapetes-img/passadeira-black-and-white.png",
-      "category": "Passadeira"
-    },
-    {
-      "id": 2,
-      "name": "Jogo de Banheiro Minnie Vermelho",
-      "description": "KIT BANHEIRO - Tampa de vaso, tapete redondo e tapete para vaso",
-      "price": "R$ 170,00",
-      "image": "/tapetes-img/minnie-vermelho.png",
-      "category": "Kit de Banheiro"
-
-    },
-    {
-      "id": 3,
-      "name": "Jogo de Banheiro Minnie Rosa",
-      "description": "KIT BANHEIRO - Tampa de vaso, tapete redondo e tapete para vaso",
-      "price": "R$ 170,00",
-      "image": "/tapetes-img/minnie-rosa.png",
-      "category": "Kit de Banheiro"
-
-    },
-    {
-      "id": 4,
-      "name": "KIT - Souplaste Laranja",
-      "description": "Valor referente á: 1 Souplast",
-      "price": "R$ 16,00",
-      "image": "/tapetes-img/souplate-laranja.png",
-      "category": "Souplast"
-
-    },
-    {
-      "id": 5,
-      "name": "KIT - Souplaste Flor",
-      "description": "Valor referente á: 1 Souplast",
-      "price": "R$ 20,00",
-      "image": "/tapetes-img/souplate-flor.png",
-      "category": "Souplast"
-
-    },
-    {
-      "id": 6,
-      "name": "KIT - Souplaste Azul com Porta Copos",
-      "description": "Valor referente á: 1 Souplast + 1 porta copo. Cores podem ser escolhidas pelo cliente",
-      "price": "R$ 18,00",
-      "image": "/tapetes-img/souplate-azul-claro-copo.png",
-      "category": "Souplast"
-
-    },
-    {
-      "id": 7,
-      "name": "Tapete Azul com Coração em Auto Relevo",
-      "description": "Tapete Azul em Auto Relevo, feito utilizando barbante azul royal e branco. Valor pdoe variar a partir do tamanho ",
-      "price": "R$ 70,00",
-      "image": "/tapetes-img/tapete-azul-coracao.png",
-      "category": "Tapete Pequeno"
-
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Passadeira Black and White",
+    "description": "Passadeira elegante de 2,20 metros em preto e branco. Disponível em outras cores e tamanhos personalizados. O valor pode variar conforme a escolha do tamanho.",
+    "price": "R$ 200,00",
+    "image": "/tapetes-img/passadeira-black-and-white.png",
+    "category": "Passadeira"
+  },
+  {
+    "id": 2,
+    "name": "Jogo de Banheiro Minnie Vermelho",
+    "description": "Conjunto de banheiro Minnie Vermelho, inclui tampa de vaso, tapete redondo e tapete para vaso. Adicione um toque divertido e charmoso ao seu banheiro.",
+    "price": "R$ 170,00",
+    "image": "/tapetes-img/minnie-vermelho.png",
+    "category": "Kit de Banheiro"
+  },
+  {
+    "id": 3,
+    "name": "Jogo de Banheiro Minnie Rosa",
+    "description": "Conjunto de banheiro Minnie Rosa, inclui tampa de vaso, tapete redondo e tapete para vaso. Um toque de delicadeza e alegria para o seu banheiro.",
+    "price": "R$ 170,00",
+    "image": "/tapetes-img/minnie-rosa.png",
+    "category": "Kit de Banheiro"
+  },
+  {
+    "id": 4,
+    "name": "KIT - Souplaste Laranja",
+    "description": "Souplast laranja vibrante. Preço referente a uma unidade. Ideal para dar um toque colorido e elegante à sua mesa.",
+    "price": "R$ 16,00",
+    "image": "/tapetes-img/souplate-laranja.png",
+    "category": "Souplast"
+  },
+  {
+    "id": 5,
+    "name": "KIT - Souplaste Flor",
+    "description": "Souplast com design floral encantador. Preço referente a uma unidade. Perfeito para uma mesa decorada e sofisticada.",
+    "price": "R$ 20,00",
+    "image": "/tapetes-img/souplate-flor.png",
+    "category": "Souplast"
+  },
+  {
+    "id": 6,
+    "name": "KIT - Souplaste Azul com Porta Copos",
+    "description": "Conjunto com souplast azul e porta-copos combinando. O cliente pode escolher as cores. Preço referente a um souplast e um porta-copos.",
+    "price": "R$ 18,00",
+    "image": "/tapetes-img/souplate-azul-claro-copo.png",
+    "category": "Souplast"
+  },
+  {
+    "id": 7,
+    "name": "Tapete Azul com Coração em Auto Relevo",
+    "description": "Tapete azul com coração em alto relevo, feito de barbante azul royal e branco. O valor pode variar conforme o tamanho escolhido.",
+    "price": "R$ 70,00",
+    "image": "/tapetes-img/tapete-azul-coracao.png",
+    "category": "Tapete Pequeno"
+  }
+]
