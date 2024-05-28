@@ -26,26 +26,26 @@
   {
     "id": 4,
     "name": "KIT - Souplaste Laranja",
-    "description": "Souplast laranja vibrante. Preço referente a uma unidade. Ideal para dar um toque colorido e elegante à sua mesa.",
+    "description": "Souplaste laranja vibrante. Preço referente a uma unidade. Ideal para dar um toque colorido e elegante à sua mesa.",
     "price": "R$ 16,00",
     "image": "/tapetes-img/souplate-laranja.png",
-    "category": "Souplast"
+    "category": "Souplaste"
   },
   {
     "id": 5,
     "name": "KIT - Souplaste Flor",
-    "description": "Souplast com design floral encantador. Preço referente a uma unidade. Perfeito para uma mesa decorada e sofisticada.",
+    "description": "Souplaste com design floral encantador. Preço referente a uma unidade. Perfeito para uma mesa decorada e sofisticada.",
     "price": "R$ 20,00",
     "image": "/tapetes-img/souplate-flor.png",
-    "category": "Souplast"
+    "category": "Souplaste"
   },
   {
     "id": 6,
     "name": "KIT - Souplaste Azul com Porta Copos",
-    "description": "Conjunto com souplast azul e porta-copos combinando. O cliente pode escolher as cores. Preço referente a um souplast e um porta-copos.",
+    "description": "Conjunto com Souplaste azul e porta-copos combinando. O cliente pode escolher as cores. Preço referente a um Souplaste e um porta-copos.",
     "price": "R$ 18,00",
     "image": "/tapetes-img/souplate-azul-claro-copo.png",
-    "category": "Souplast"
+    "category": "Souplaste"
   },
   {
     "id": 7,
@@ -54,5 +54,45 @@
     "price": "R$ 70,00",
     "image": "/tapetes-img/tapete-azul-coracao.png",
     "category": "Tapete Pequeno"
+  },
+  {
+    "id": 8,
+    "name": "KIT - Tapetes de Cozinha Vermelhos",
+    "description": "Passadeira + tapete pequeno, cor e tamanho podem variar do pedido do cliente um charme para sua cozinha.",
+    "price": "R$ 70,00",
+    "image": "/tapetes-img/conjunto-tapetes-cozinha.png",
+    "category": "Tapete Cozinha"
+  },
+  {
+    "id": 9,
+    "name": "KIT - Tapetes de Cozinha Amarelo e Preto",
+    "description": "Passadeira + tapete pequeno, cor e tamanho podem variar do pedido do cliente um charme para sua cozinha.",
+    "price": "R$ 70,00",
+    "image": "/tapetes-img/kit-cozinha-amarelo-preto.png",
+    "category": "Tapete Cozinha"
+  },
+  {
+    "id": 10,
+    "name": "Passadeira Amarela",
+    "description": "Passadeira elegante de 2 metros amarelo, pontos pequenoa bem fechadinhos. Disponível em outras cores e tamanhos personalizados. O valor pode variar conforme a escolha do tamanho.",
+    "price": "R$ 200,00",
+    "image": "/tapetes-img/passadeira-amarela.png",
+    "category": "Passadeira"
+  },
+  {
+    "id": 11,
+    "name": "Tapete BEM-VINDO!",
+    "description": "Tapete personalizado com escrito bem-vindo nele , bem bonito feito apra recepção do seu lar",
+    "price": "R$ 200,00",
+    "image": "/tapetes-img/tapete-bem-vindo.png",
+    "category": "Tapete Pequeno"
+  },
+  {
+    "id": 12,
+    "name": "Souplaste Ursinho",
+    "description": "Souplaste com formato de ursinho. O cliente pode escolher as cores. Preço referente a um Souplaste e um porta-copos.",
+    "price": "R$ 18,00",
+    "image": "/tapetes-img/souplast-ursinho.png",
+    "category": "Souplaste"
   }
 ]

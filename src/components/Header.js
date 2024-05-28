@@ -12,15 +12,26 @@ const Header = ({ onCategoryChange }) => {
 
   const handleCategoryChange = (event) => {
     const category = event.target.value;
-    onCategoryChange(category); 
+    onCategoryChange(category);
   };
 
   return (
     <header className='bg-[#d1a6a6] p-4 flex flex-col items-center'>
-      <img src={'./capa-site.png'} alt="Header" className='header-image h-60 mb-4' /> {/* Adicionando margem inferior */}
+      <img src={'./capa-site.png'} alt="Header" className='header-image h-60 mb-4' />
+      <div className='flex items-center justify-center mb-4'>
+        <a href="https://api.whatsapp.com/send?phone=5514997401458" target="_blank" rel="noopener noreferrer">
+          <img src="./whatsapp-icon.png" alt="WhatsApp" className="w-12 h-12 mr-4" />
+        </a>
+        <a href="https://www.facebook.com/jacqueline.silva.10236115" target="_blank" rel="noopener noreferrer">
+          <img src="./facebook-icon.png" alt="Facebook" className="w-12 h-12 mr-4" />
+        </a>
+        <a href="https://www.instagram.com/jacquelinesilva315/?hl=pt_BR" target="_blank" rel="noopener noreferrer">
+          <img src="./instagram-icon.png" alt="Instagram" className="w-12 h-12" />
+        </a>
+      </div>
       <div className='relative flex items-center mb-4'>
         <select
-          className='p-2 rounded-full pl-8 pr-4 mr-2' // Adicionando preenchimento à direita para o ícone de lupa e margem à direita para a sacola
+          className='p-2 rounded-full pl-8 pr-4 mr-2'
           onChange={handleCategoryChange}
         >
           <option value=''>Todas as Categorias</option>
@@ -28,11 +39,12 @@ const Header = ({ onCategoryChange }) => {
             <option key={category} value={category}>{category}</option>
           ))}
         </select>
-        <IoSearch className='absolute left-2 top-1/2 transform -translate-y-1/2 text-[#d1a6a6]' /> {/* Posicionando o ícone de lupa */}
+
+        <IoSearch className='absolute left-2 top-1/2 transform -translate-y-1/2 text-[#d1a6a6]' />
         <div onClick={() => setIsOpen(!isOpen)} className='cursor-pointer'>
-          <BsBag className='text-3xl text-white' /> {/* Removendo a margem para colocar a sacola ao lado */}
-          <span className="bg-red-500 text-white rounded-full h-5 w-5 flex items-center justify-center absolute -top-1 -right-1">1</span> {/* Adicionando a badge do lado da sacola */}
+          <BsBag className='text-3xl text-white mr-4' />
         </div>
+
       </div>
     </header>
   );

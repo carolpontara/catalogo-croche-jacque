@@ -7,6 +7,11 @@ const Home = () => {
   const { products } = useContext(ProductContext);
   const [filteredProducts, setFilteredProducts] = useState(products);
 
+  // Atualiza os produtos filtrados sempre que a lista de produtos for alterada
+  useEffect(() => {
+    setFilteredProducts(products);
+  }, [products]);
+
   const updateFilteredProducts = (category) => {
     if (category === '') {
       setFilteredProducts(products); 
