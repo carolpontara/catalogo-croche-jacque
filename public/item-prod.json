@@ -4,7 +4,7 @@
       "name": "Passadeira Black and White",
       "description": "Passadeira de 2,20M , cliente pode escolher cor e outros modelos referentes, valor varia conforme o tamanho",
       "price": "R$ 200,00",
-      "image": "/tapetes-img/passadeira-black-and-white.jpg",
+      "image": "/tapetes-img/passadeira-black-and-white.png",
       "category": "Passadeira"
     },
     {
@@ -12,7 +12,7 @@
       "name": "Jogo de Banheiro Minnie Vermelho",
       "description": "KIT BANHEIRO - Tampa de vaso, tapete redondo e tapete para vaso",
       "price": "R$ 170,00",
-      "image": "/tapetes-img/minnie-vermelho.jpg",
+      "image": "/tapetes-img/minnie-vermelho.png",
       "category": "Kit de Banheiro"
 
     },
@@ -21,7 +21,7 @@
       "name": "Jogo de Banheiro Minnie Rosa",
       "description": "KIT BANHEIRO - Tampa de vaso, tapete redondo e tapete para vaso",
       "price": "R$ 170,00",
-      "image": "/tapetes-img/minnie-rosa.jpg",
+      "image": "/tapetes-img/minnie-rosa.png",
       "category": "Kit de Banheiro"
 
     },
@@ -30,7 +30,7 @@
       "name": "KIT - Souplaste Laranja",
       "description": "Valor referente á: 1 Souplast",
       "price": "R$ 16,00",
-      "image": "/tapetes-img/souplate-laranja.jpg",
+      "image": "/tapetes-img/souplate-laranja.png",
       "category": "Souplast"
 
     },
@@ -39,7 +39,7 @@
       "name": "KIT - Souplaste Flor",
       "description": "Valor referente á: 1 Souplast",
       "price": "R$ 20,00",
-      "image": "/tapetes-img/souplate-flor.jpg",
+      "image": "/tapetes-img/souplate-flor.png",
       "category": "Souplast"
 
     },
@@ -48,7 +48,7 @@
       "name": "KIT - Souplaste Azul com Porta Copos",
       "description": "Valor referente á: 1 Souplast + 1 porta copo. Cores podem ser escolhidas pelo cliente",
       "price": "R$ 18,00",
-      "image": "/tapetes-img/souplate-azul-claro-copo.jpg",
+      "image": "/tapetes-img/souplate-azul-claro-copo.png",
       "category": "Souplast"
 
     },
